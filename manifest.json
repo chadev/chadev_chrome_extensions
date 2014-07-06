@@ -1,0 +1,22 @@
+{
+  "name": "Chadev",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Google Chrome extension to open Chadev.com",
+  "permissions": ["activeTab"],
+  "icons": {"128": "icon_128x128.png" },
+
+  "browser_action": {
+    "default_icon": {
+      "128": "icon_128x128.png",
+      "19": "icon_19x19.png",
+      "38": "icon_38x38.png"
+    },
+    "default_title": "Open Chadev"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
